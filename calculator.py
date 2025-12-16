@@ -1,6 +1,10 @@
+def add(a, b):
+    return a + b
 
-print(hello)
-print("hello"
+def divide(a, b):
+    # BUG: No check for division by zero!
+    return a / b
 
-print(hello)
-""" """
+def average(numbers):
+    # BUG: No check for empty list!
+    return sum(numbers) / len(numbers)
