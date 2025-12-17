@@ -7,5 +7,5 @@ def divide(a, b):
 
 def average(numbers):
     # BUG: No check for empty list!
-    return sum(numbers) / len(numbe
+    return sum(numbers) / len(numb
 ""
